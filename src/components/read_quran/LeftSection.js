@@ -1,3 +1,5 @@
+import ListSurah from "./ListSurah";
+
 function LeftSection() {
   return (
     <div className="bg-slate-300 basis-1/4 flex flex-col">
@@ -6,8 +8,7 @@ function LeftSection() {
 
       {/* List name surah */}
 
-        <ListSurah/>
-
+      <ListSurah />
     </div>
   );
 }
